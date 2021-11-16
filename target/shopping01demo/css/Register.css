@@ -1,0 +1,38 @@
+body{
+
+    background-color: #666666;
+}
+.form{
+    background: rgba(255,255,255,0.9);
+    width: 460px;
+    left: 40px;
+    margin:80px auto;
+}
+label{
+    font-family: Arial;
+    font-size: 15px;
+}
+input.form-control:valid{
+    background-color: mintcream;
+}
+input.form-control:invalid{
+    background-color: #eee7e7;
+}
+input[type="text"],input[type="password"],input[type="repwd"]{
+    padding-left: 22px;
+}
+
+.form.title{
+    padding-top: 60px;
+}
+#button{
+    padding-bottom: 400px;
+}
+.fa{
+    display: inline-block;
+    top:27px;
+    left:5px;
+    right: 20px;
+    position: relative;
+    color: #575757;
+}
